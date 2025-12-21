@@ -1,0 +1,80 @@
+/* Dark theme styles */
+body.dark { 
+  background-color: #121212; 
+  color: #e0e0e0; 
+}
+
+body.dark input { 
+  border: 1px solid #444; 
+  background-color: #1e1e1e; 
+  color: #e0e0e0; 
+}
+
+body.dark button { 
+  background-color: #1f6feb; 
+  color: white; 
+}
+
+body.dark button:hover { 
+  background-color: #1449a1; 
+}
+
+body.dark .todo-item { 
+  background-color: #1e1e1e; 
+  border-color: #444;
+}
+
+body.dark .auth-page { 
+  background-color: #1e1e1e; 
+  color: #e0e0e0;
+}
+
+body.dark .navbar { 
+  background-color: #1f6feb; 
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #333;
+}
+
+body.dark .dashboard {
+  background-color: transparent;
+}
+
+/* Dark theme for form elements */
+body.dark .form-group label {
+  color: #e0e0e0;
+}
+
+body.dark .add-todo input {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+/* Dark theme for todo checkboxes */
+body.dark .todo-item input[type="checkbox"] {
+  filter: invert(1);
+}
+
+body.dark .todo-item.completed span {
+  color: #888;
+}
+
+/* Dark theme for action buttons */
+body.dark .todo-item .edit-btn {
+  background-color: #b58900;
+  color: #121212;
+}
+
+body.dark .todo-item .delete-btn {
+  background-color: #dc322f;
+  color: white;
+}
+
+body.dark .todo-item .save-btn {
+  background-color: #859900;
+  color: white;
+}
