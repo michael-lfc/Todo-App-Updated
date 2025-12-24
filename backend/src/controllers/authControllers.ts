@@ -49,3 +49,5 @@ export const login = async (req: Request, res: Response) => {
     token: generateToken(user._id.toString())
   });
 };
+
+
